@@ -11,9 +11,7 @@
 	<nav class="navbar navbar-expand-sm bg-light">
 
 		<ul class="navbar-nav">
-			<span class="navbar-text">
-				Petshop
-			</span>
+			<img src="{{ asset('img/destaqueestilosos1.png') }}" alt="Logo" style="width:50px;">
     		<li class="nav-item">
       			<a class="nav-link" href="/">Home</a>
     		</li>
@@ -44,6 +42,9 @@
 		</div>
 		<div>
 			@yield("lista")
+		</div>
+		<div>
+			@yield("apresentacao")
 		</div>
 	</div>
 </body>
